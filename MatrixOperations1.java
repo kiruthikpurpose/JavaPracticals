@@ -1,4 +1,8 @@
-// 1. Matrix operations: sum of rows and columns, maximum element, transpose
+// 1. Matrix operations: 
+//    Perform the following operations on a matrix:
+//    a) Calculate the sum of each row and each column.
+//    b) Find the maximum element in the matrix.
+//    c) Find the transpose of the matrix.
 
 import java.util.Scanner;
 
@@ -20,7 +24,7 @@ public class MatrixOperations1 {
             }
         }
 
-        // Sum of rows and columns
+        // Sum of rows
         for (int i = 0; i < rows; i++) {
             int rowSum = 0;
             for (int j = 0; j < cols; j++) {
@@ -29,6 +33,7 @@ public class MatrixOperations1 {
             System.out.println("Sum of row " + i + ": " + rowSum);
         }
 
+        // Sum of columns
         for (int j = 0; j < cols; j++) {
             int colSum = 0;
             for (int i = 0; i < rows; i++) {
@@ -56,6 +61,7 @@ public class MatrixOperations1 {
             }
             System.out.println();
         }
+
         sc.close();
     }
 }

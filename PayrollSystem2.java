@@ -1,4 +1,11 @@
-// 2. Payroll system for employees
+// 2. Payroll system for employees:
+//    Create a payroll system that collects the following information for each employee:
+//    a) Employee Name
+//    b) Employee ID
+//    c) Hourly Rate
+//    d) Hours Worked
+//    The system should calculate the gross pay (hourly rate * hours worked) for each employee and
+//    display their payroll details including name, ID, hourly rate, hours worked, and gross pay.
 
 import java.util.Scanner;
 
